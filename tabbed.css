@@ -1,10 +1,17 @@
+/**
+ * Copyright (c) 2018, Watermark
+ *
+ * This source code is licensed under the MIT license found in the
+ * LICENSE file in the root directory of this source tree.
+ */
+
 .dm-profile-section:not(.dm-profile-section--main-image) img {
 	max-width: 100%;
 	height: auto;
 }
 
 .dm-profile-preamble {
-	background-color: rgb(1, 68, 85);
+	background-color: #ffffff;
 	color: rgb(255, 255, 255);
 	padding: 1.5rem 1.5rem 1rem 3rem;
 	box-sizing: border-box;
@@ -12,16 +19,20 @@
 
 .dm-profile-preamble .dm-profile-heading {
 	background-color: rgb(255, 255, 255);
-	color: rgb(1, 68, 85);
+	color: #0b0318;
 	display: inline-block;
 	padding: 0.25rem 1rem;
 	margin: 0;
 	text-transform: uppercase;
 }
 
+.dm-profile-break {
+display: none;
+}
+
 .dm-profile-preamble .dm-profile-activities {
-	background-color: rgb(1, 68, 85);
-	color: rgb(255, 255, 255);
+	background-color: rgb(255, 255, 255);
+	color: #0b0318;
 }
 
 .dm-profile-preamble .dm-profile-content .dm-profile-activities {
@@ -38,7 +49,7 @@
 }
 
 .dm-profile-tabs__item {
-	background-color: rgb(218, 100, 39);
+	background-color: rgba(0,57,118,.95);
 	border: 0;
 	display: block;
 	margin: 0.5rem 0;
@@ -48,7 +59,7 @@
 }
 
 .dm-profile-tabs__item--active {
-	background-color: rgb(1, 68, 85);
+	background-color: #002664;
 }
 
 .dm-profile-tabs__link {
