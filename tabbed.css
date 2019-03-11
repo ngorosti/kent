@@ -11,7 +11,7 @@
 }
 
 .dm-profile-preamble {
-	background-color: #ffffff;
+	background-color: rgba(0,57,118,.95);
 	color: rgb(255, 255, 255);
 	padding: 1.5rem 1.5rem 1rem 3rem;
 	box-sizing: border-box;
@@ -19,20 +19,16 @@
 
 .dm-profile-preamble .dm-profile-heading {
 	background-color: rgb(255, 255, 255);
-	color: #0b0318;
+	color: rgba(0,57,118,.95);
 	display: inline-block;
 	padding: 0.25rem 1rem;
 	margin: 0;
 	text-transform: uppercase;
 }
 
-.dm-profile-break {
-display: none;
-}
-
 .dm-profile-preamble .dm-profile-activities {
-	background-color: rgb(255, 255, 255);
-	color: #0b0318;
+	background-color: #0a417f;
+	color: rgb(255, 255, 255);
 }
 
 .dm-profile-preamble .dm-profile-content .dm-profile-activities {
@@ -49,7 +45,7 @@ display: none;
 }
 
 .dm-profile-tabs__item {
-	background-color: rgba(0,57,118,.95);
+	background-color: rgb(7, 62, 129);
 	border: 0;
 	display: block;
 	margin: 0.5rem 0;
@@ -59,7 +55,7 @@ display: none;
 }
 
 .dm-profile-tabs__item--active {
-	background-color: #002664;
+	background-color: rgb(241, 172, 0);
 }
 
 .dm-profile-tabs__link {
@@ -97,7 +93,7 @@ display: none;
 }
 
 .dm-profile-break {
-	background-color: rgb(237, 171, 110);
+	background-color: rgb(5, 59, 131);
 	height: 0.15rem;
 	margin: 0.5rem 0;
 	padding: 0;
@@ -115,6 +111,9 @@ display: none;
 	display: flex;
 	-ms-flex-wrap: wrap;
 	flex-wrap: wrap;
+}
+.dm-profile-break {
+display: none;
 }
 
 .dm-profile-preamble
@@ -177,3 +176,4 @@ display: none;
 		width: 75%;
 	}
 }
+
